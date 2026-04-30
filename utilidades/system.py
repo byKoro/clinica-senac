@@ -1,24 +1,5 @@
 import utilidades.utils as utils
 
-def cadastrar_usuario(usuario, senha, nivel):
-  if not usuario or not senha:
-    return False
-  
-  if nivel not in ["Administrador", "Recepcionista" , "Médico"]:
-    return False
-  if buscar_usuario(usuario):
-    return False
-
-  novo_usuario = {
-    "id": utils.gerar_id("usuarios"),
-    "usuario": usuario,
-    "senha": senha,
-    "nivel": nivel
-  } 
-
-  utils.adicionar("usuarios", novo_usuario)
-  return True
-
 def buscar_usuario(usuario):
   informacoes = utils.carregar("usuarios")
   for i in informacoes:

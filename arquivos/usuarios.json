@@ -1,8 +1,32 @@
 [
-  {
-    "usuario": "yuri",
-    "senha": "1234",
-    "id": 1,
-    "nivel": "Administrador"
-  }
+    {
+        "id": 1,
+        "usuario": "yuri",
+        "senha": "1234",
+        "nivel": "Administrador"
+    },
+    {
+        "id": 2,
+        "usuario": "Yuri",
+        "senha": "1234",
+        "nivel": "Administrador"
+    },
+    {
+        "id": 3,
+        "usuario": "Rafael",
+        "senha": "12345",
+        "nivel": "M\u00e9dico"
+    },
+    {
+        "id": 4,
+        "usuario": "Joana",
+        "senha": "1234",
+        "nivel": "Recepcionista"
+    },
+    {
+        "id": 5,
+        "usuario": "Heloiza",
+        "senha": "1234",
+        "nivel": "Recepcionista"
+    }
 ]

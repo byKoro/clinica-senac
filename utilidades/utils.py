@@ -45,3 +45,9 @@ def gerar_id(arquivo):
     if i["id"] > maior_id:
       maior_id = i["id"]
   return maior_id + 1
+
+def listar_arquivo(arquivo="usuarios"):
+  usuarios = carregar(arquivo)
+  for i in usuarios:
+    print(f"Id: {i["id"]} - Nome: {i["usuario"]}")
+  
