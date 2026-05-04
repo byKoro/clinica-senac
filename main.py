@@ -20,8 +20,7 @@ if Usuario["nivel"] == "Administrador":
 
 
 elif Usuario["nivel"] == "Recepcionista":
-  print("Tela da Recepcionista.")
-  print("Tela do Felipe")
+  recepcionista_main()
 
 elif Usuario["nivel"] == "Médico":
   print("Tela do Médico")

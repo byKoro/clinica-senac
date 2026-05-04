@@ -4,5 +4,11 @@
     "senha": "1234",
     "id": 1,
     "nivel": "Administrador"
+  },
+  {
+    "usuario": "jhon",
+    "senha": "1234",
+    "id": 2,
+    "nivel": "Recepcionista"
   }
 ]
