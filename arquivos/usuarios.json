@@ -28,5 +28,11 @@
         "usuario": "Heloiza",
         "senha": "1234",
         "nivel": "Recepcionista"
+    },
+    {
+        "id": 6,
+        "usuario": "Douglas",
+        "senha": "8989",
+        "nivel": "Recepcionista"
     }
 ]
