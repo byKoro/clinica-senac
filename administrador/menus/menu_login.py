@@ -6,5 +6,3 @@ def menu_login():
     print("1 - Login")
     print("0 - Sair")
     return input("Escolha: ")
-
-menu_login()

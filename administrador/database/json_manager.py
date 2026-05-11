@@ -17,3 +17,9 @@ def adicionar_json(caminho, dados):
     adicionar.append(dados)
     salvar = salvar_json(caminho,adicionar)
     return
+
+def list_json(caminho):
+  lista = carregar_json(caminho)
+
+  for i in lista:
+    print(i)

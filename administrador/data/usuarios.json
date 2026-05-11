@@ -2,33 +2,25 @@
     {
         "id": 1,
         "usuario": "yuri",
-        "senha": "1234"
+        "senha": "1234",
+        "nivel": "Administrador"
     },
     {
-        "id": 2
-    },
-    {
+        "usuario": "dasdas",
+        "senha": "d123",
+        "nivel": "admin",
         "id": 3
     },
     {
+        "usuario": "3123",
+        "senha": "354345",
+        "nivel": "recepcionista",
         "id": 4
     },
     {
+        "usuario": "yuri",
+        "senha": "312312",
+        "nivel": "Recepcionista",
         "id": 5
-    },
-    {
-        "id": 6
-    },
-    {
-        "id": 7
-    },
-    {
-        "id": 8
-    },
-    {
-        "id": 9
-    },
-    {
-        "id": 10
     }
 ]
