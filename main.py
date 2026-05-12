@@ -1,27 +1,30 @@
-import utilidades.cores as cr
-import utilidades.utils as ut
-import utilidades.system as st
-import utilidades.menus as mn
+import administrador.database.auth_service as auth_service
+import administrador.menus.menu_login as menu
+import administrador.database.json_manager as json_manager
+import administrador.menus.menu_admin as menu_admin
+import Recepcionista.Funções_recepcionista as Recepcionista
+
+usuario = {}
 
 while True:
-  usuario = input("Digíte o nome do usuário: ")
-  senha = input("Digíte a senha: ")
+  op = menu.menu_login()
 
-  Usuario = st.logar_usuario(usuario,senha)
+  if op == '1':
+    usuario = input("Usuário: ")
+    senha = input("Senha: ")
+    autenticado = auth_service.auth_user(usuario,senha)
 
-  if Usuario is None:
-    print(cr.vermelho("Login ou senha inválido!"))
-  else:
+    while not autenticado:
+      print("Usuário ou senha inválido")
+      usuario = input("Usuário: ")
+      senha = input("Senha: ")
+      usuario = auth_service.auth_user(usuario,senha)
+
+  elif op == '0':
     break
 
+  if usuario["nivel"] == "Administrador":
+    menu_admin.menu_admin()
 
-if Usuario["nivel"] == "Administrador":
-  print("Tela do Administrador")
-
-
-elif Usuario["nivel"] == "Recepcionista":
-  recepcionista_main()
-
-elif Usuario["nivel"] == "Médico":
-  print("Tela do Médico")
-
+  if usuario["nivel"] == "Recepcionista":
+    Recepcionista.
