@@ -17,7 +17,7 @@ def menu_usuarios():
     op = input("Selecionar opção: ")
 
     if op == "1":
-      auth_service.cadastrar_user('administrador/data/usuarios.json')
+      auth_service.cadastrar_user('data/usuarios.json')
       print("Cadastrado com sucesso!")
 
     elif op == "2":

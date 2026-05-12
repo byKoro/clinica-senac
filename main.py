@@ -2,7 +2,7 @@ import administrador.database.auth_service as auth_service
 import administrador.menus.menu_login as menu
 import administrador.database.json_manager as json_manager
 import administrador.menus.menu_admin as menu_admin
-import Recepcionista.Funções_recepcionista as Recepcionista
+# import Recepcionista.Funções_recepcionista as Recepcionista
 
 usuario = {}
 
@@ -18,7 +18,9 @@ while True:
       print("Usuário ou senha inválido")
       usuario = input("Usuário: ")
       senha = input("Senha: ")
-      usuario = auth_service.auth_user(usuario,senha)
+      autenticado = auth_service.auth_user(usuario,senha)
+
+    usuario = autenticado
 
   elif op == '0':
     break
@@ -26,5 +28,5 @@ while True:
   if usuario["nivel"] == "Administrador":
     menu_admin.menu_admin()
 
-  if usuario["nivel"] == "Recepcionista":
-    Recepcionista.
+  elif usuario["nivel"] == "Recepcionista":
+    print("Recepcionista")
