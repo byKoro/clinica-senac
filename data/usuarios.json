@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "usuario": "yuri",
+        "senha": "1234",
+        "nivel": "Administrador"
+    },
+    {
+        "usuario": "dasdas",
+        "senha": "d123",
+        "nivel": "admin",
+        "id": 3
+    },
+    {
+        "usuario": "3123",
+        "senha": "354345",
+        "nivel": "recepcionista",
+        "id": 4
+    },
+    {
+        "usuario": "yuri",
+        "senha": "312312",
+        "nivel": "Recepcionista",
+        "id": 5
+    }
+]
