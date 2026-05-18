@@ -20,6 +20,5 @@ def adicionar_json(caminho, dados):
 
 def list_json(caminho):
   lista = carregar_json(caminho)
-
   for i in lista:
     print(i)
