@@ -1,0 +1,3 @@
+from Recepcionista.Consultas import registrar_consultas as registrar_consultas
+
+registrar_consultas.registrar_consultas()

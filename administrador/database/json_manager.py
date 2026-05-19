@@ -22,3 +22,16 @@ def list_json(caminho):
   lista = carregar_json(caminho)
   for i in lista:
     print(i)
+
+def search_json(informacao_buscar, informacao, caminho):
+    arquivo = carregar_json(caminho)
+    for i in arquivo:
+        if i[informacao] == informacao_buscar:
+            return i
+            break
+    return False
+
+def list_item_json(item, caminho):
+    lista = carregar_json(caminho)
+    for i in lista:
+        print(i[item])
