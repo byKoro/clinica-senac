@@ -1,6 +1,7 @@
 from administrador.database import json_manager as json_manager
 from administrador.services import id_generator as id_generator
 
+
 def registrar_consultas():
     while True:
         print("Registre aqui sua consulta: ")

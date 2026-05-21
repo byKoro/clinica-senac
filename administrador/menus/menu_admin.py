@@ -1,4 +1,5 @@
 from administrador.menus import menu_usuarios as menu_usuarios
+from administrador.menus import menu_medicos  as menu_medicos
 def menu_admin():
   while True:
     print(
@@ -19,5 +20,7 @@ def menu_admin():
 
     if op == "1":
       menu_usuarios.menu_usuarios()
+    elif op == "2":
+      menu_medicos.menu_medicos()
     elif op == "0":
       break
