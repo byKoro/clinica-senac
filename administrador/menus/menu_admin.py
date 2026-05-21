@@ -13,6 +13,9 @@ def menu_admin():
     print("0 - Logout")
 
     op = input("Escolha uma opção: ")
+    while op not in ["0","1","2","3","4","5"]:
+      op = input("Opção invalída! Escolha uma opção: ")
+    
 
     if op == "1":
       menu_usuarios.menu_usuarios()

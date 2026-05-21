@@ -1,4 +1,4 @@
-from administrador.database import auth_service as auth_service
+from administrador.database import auth_user as auth_user
 from administrador.database import edit_user as edit_user
 from administrador.database import json_manager as json_manager
 from administrador.services import list_user as list_user
@@ -15,9 +15,11 @@ def menu_usuarios():
     print("0 - Voltar")
 
     op = input("Selecionar opção: ")
+    while op not in ["0","1","2","3","4"]:
+      op = input("Opção invalída! Selecionar opção: ")
 
     if op == "1":
-      auth_service.cadastrar_user('data/usuarios.json')
+      auth_user.cadastrar_user('data/usuarios.json')
       print("Cadastrado com sucesso!")
 
     elif op == "2":

@@ -14,5 +14,29 @@
         "data": "10 08 2003",
         "hora": "10:20",
         "status": "Agendado"
+    },
+    {
+        "id": 3,
+        "id_paciente": 1,
+        "id_medico": 1,
+        "data": "10/08/2004",
+        "hora": "09:32",
+        "status": "morto"
+    },
+    {
+        "id": 4,
+        "id_paciente": 1,
+        "id_medico": 1,
+        "data": "11",
+        "hora": "1",
+        "status": "1"
+    },
+    {
+        "id": 5,
+        "id_paciente": 2,
+        "id_medico": 1,
+        "data": "adasd",
+        "hora": "asd",
+        "status": "asd"
     }
 ]

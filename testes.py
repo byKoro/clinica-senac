@@ -1,3 +1,3 @@
-from Recepcionista.Consultas import registrar_consultas as registrar_consultas
+from administrador.menus import menu_medico as menu_medico
 
-registrar_consultas.registrar_consultas()
+menu_medico.menu_medico()
