@@ -53,14 +53,14 @@ def editar_user():
 
       elif op == "0":
         usuarios_lista[index] = user
-        json_manager.salvar_json('administrador/data/usuarios.json', usuarios_lista)
+        json_manager.salvar_json('data/usuarios.json', usuarios_lista)
         print("Editado com sucesso!")
         break
 
 def del_user():
   while True:
     list_user.list_user()
-    user_list = json_manager.carregar_json("administrador/data/usuarios.json")
+    user_list = json_manager.carregar_json("data/usuarios.json")
     print("0 - Voltar")
     op = input("Escolha um usuário pelo id: ")
     if op == "0": break
@@ -74,5 +74,5 @@ def del_user():
         break
     
     user_list.pop(index)
-    json_manager.salvar_json('administrador/data/usuarios.json', user_list)
+    json_manager.salvar_json('data/usuarios.json', user_list)
     print("Usuário deletado com sucesso!")

@@ -3,7 +3,7 @@ from administrador.services import id_generator as id_generator
 
 
 def auth_user(user, senha):
-    usuarios = json_manager.carregar_json("administrador/data/usuarios.json")
+    usuarios = json_manager.carregar_json("data/usuarios.json")
     for u in usuarios:
       if u["usuario"] == user and u["senha"] == senha:
         return u
@@ -38,7 +38,7 @@ def cadastrar_user(caminho):
   return dados
 
 def check_user(id_user):
-  usuarios = json_manager.carregar_json('administrador/data/usuarios.json')
+  usuarios = json_manager.carregar_json('data/usuarios.json')
 
   for u in usuarios:
     if id_user == u["id"]:
