@@ -1,6 +1,7 @@
 from administrador.database import json_manager as json_manager
 from administrador.services import id_generator as id_generator
 
+
 def registrar_consultas():
     while True:
         print("Registre aqui sua consulta: ")
@@ -27,15 +28,14 @@ def registrar_consultas():
 
         data = input("Digíte a data: ")
         hora = input("Digít a hora: ")
-        status = input("Digíte o status: ")
-
+        
         registrar = {
             "id": id_generator.id_generator("data/consultas.json"),
             "id_paciente": paciente_id,
             "id_medico": medico_id,
             "data": data,
             "hora": hora,
-            "status": status
+            "status": "Agendado"
         }
 
         json_manager.adicionar_json("data/consultas.json", registrar)

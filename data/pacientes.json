@@ -1,1 +1,58 @@
-[ { "id": 1, "nome": "Carlos Lima", "idade": 35, "cpf": "00000000000", "telefone": "67999999999", "endereco": "Rua A, 123" } ]
+[
+  {
+    "id": 1,
+    "nome": "Carlos Lima",
+    "idade": 35,
+    "cpf": "00000000000",
+    "telefone": "67999999999",
+    "endereco": "Rua A, 123"
+  },
+  {
+    "id": 2,
+    "nome": "Ana Beatriz Souza",
+    "idade": 28,
+    "cpf": "11111111111",
+    "telefone": "67988888888",
+    "endereco": "Rua das Flores, 45"
+  },
+  {
+    "id": 3,
+    "nome": "João Pedro Alves",
+    "idade": 42,
+    "cpf": "22222222222",
+    "telefone": "67977777777",
+    "endereco": "Av. Brasil, 1000"
+  },
+  {
+    "id": 4,
+    "nome": "Mariana Costa",
+    "idade": 31,
+    "cpf": "33333333333",
+    "telefone": "67966666666",
+    "endereco": "Rua Central, 210"
+  },
+  {
+    "id": 5,
+    "nome": "Rafael Martins",
+    "idade": 50,
+    "cpf": "44444444444",
+    "telefone": "67955555555",
+    "endereco": "Rua dos Ipês, 88"
+  },
+  {
+    "id": 6,
+    "nome": "Juliana Ferreira",
+    "idade": 23,
+    "cpf": "55555555555",
+    "telefone": "67944444444",
+    "endereco": "Rua Nova, 12"
+  },
+  {
+    "id": 7,
+    "nome": "Bruno Rocha",
+    "idade": 39,
+    "cpf": "66666666666",
+    "telefone": "67933333333",
+    "endereco": "Av. São José, 777"
+  }
+]
