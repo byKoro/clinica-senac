@@ -7,7 +7,7 @@ def menu_usuarios():
   while True:
     print("""================================
       GERENCIAR USUÁRIOS
-    ================================""")
+================================""")
     print("1 - Cadastrar")
     print("2 - Editar usuário")
     print("3 - Excluir usuário")

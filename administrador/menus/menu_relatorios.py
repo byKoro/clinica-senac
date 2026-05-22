@@ -4,7 +4,7 @@ def menu_relatorios():
     while True:
         print("""================================
         MENU RELATÓRIOS
-    ================================""")
+================================""")
         print("1 - Total de consultas realizadas por período")
         print("2 - Total de consultas canceladas")
         print("3 - Quantidade de pacientes cadastrados")

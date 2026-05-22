@@ -1,3 +1,3 @@
-from administrador.menus import menu_medico as menu_medico
+import Recepcionista.Menus.menu_recepcionista as m
 
-menu_medico.menu_medico()
+m.menu_recepcionista()

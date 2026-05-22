@@ -5,7 +5,7 @@ def menu_medico():
         print(
         """================================
             MENU MÉDICO
-        ================================""")
+================================""")
         print("1 - Cadastrar médico")
         print("2 - Editar médico")
         print("3 - Exluir médico")
