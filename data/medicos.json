@@ -1,22 +1,9 @@
 [
   {
-<<<<<<< HEAD
-        "id": 1,
-        "nome": "Dr João Silva",
-        "especialidade": "Clínico Geral",
-        "crm": "12345"
-    },
-    {
-        "id": 2,
-        "nome": "Yuri",
-        "especialidade": "adsad",
-        "crm": "asd"
-=======
     "id": 2,
     "nome": "João",
     "especialidade": "Pediatra",
     "crm": "12345"
->>>>>>> faf5c46a5c29427d5b0be4e4c1007e7a668081b2
   },
   {
     "id": 3,
