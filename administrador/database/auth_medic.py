@@ -37,3 +37,6 @@ def del_medic():
   lista_medicos.pop(del_index)
   json_manager.salvar_json("data/medicos.json", lista_medicos)
   print("Deletado com sucesso!")
+
+def edit_medic():
+  medicos = json_manager.carregar_json("data/medicos.json")

@@ -1,8 +1,8 @@
 [
-    {
-        "id": 2,
-        "nome": "Pedro",
-        "especialidade": "Pediatra",
-        "crm": "12345"
-    }
+  {
+    "id": 2,
+    "nome": "Pedro",
+    "especialidade": "Pediatra",
+    "crm": "12345"
+  }
 ]
