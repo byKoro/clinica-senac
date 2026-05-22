@@ -1,7 +1,5 @@
 from administrador.database import auth_service as auth_service
-from administrador.database import auth_medic as list_medic
-from administrador.database import auth_medic as cad_medic
-from administrador.database import auth_medic as del_medic
+from administrador.database import auth_medic 
 
 def menu_medicos():
   while True:
@@ -17,12 +15,12 @@ def menu_medicos():
     op = input("Selecionar opção: ")
 
     if op == "1":
-      cad_medic.cad_medic()
+      auth_medic.cad_medic()
     elif op == "2":
-      print("BUILDING")
+      auth_medic.edit_medic()
     elif op == "3":
-      del_medic.del_medic()
+      auth_medic.del_medic()
     elif op == "4":
-      list_medic.list_medic()
+      auth_medic.list_medic()
     elif op == "0":
       break

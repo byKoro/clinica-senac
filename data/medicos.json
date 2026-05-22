@@ -1,5 +1,5 @@
 [
-    {
+  {
 <<<<<<< HEAD
         "id": 1,
         "nome": "Dr João Silva",
@@ -12,10 +12,40 @@
         "especialidade": "adsad",
         "crm": "asd"
 =======
-        "id": 2,
-        "nome": "Pedro",
-        "especialidade": "Pediatra",
-        "crm": "12345"
+    "id": 2,
+    "nome": "João",
+    "especialidade": "Pediatra",
+    "crm": "12345"
 >>>>>>> faf5c46a5c29427d5b0be4e4c1007e7a668081b2
-    }
+  },
+  {
+    "id": 3,
+    "nome": "Maria Silva",
+    "especialidade": "Cardiologista",
+    "crm": "54321"
+  },
+  {
+    "id": 4,
+    "nome": "Carlos Souza",
+    "especialidade": "Ortopedista",
+    "crm": "67890"
+  },
+  {
+    "id": 5,
+    "nome": "Ana Paula",
+    "especialidade": "Dermatologista",
+    "crm": "11223"
+  },
+  {
+    "id": 6,
+    "nome": "Rafael Lima",
+    "especialidade": "Neurologista",
+    "crm": "44556"
+  },
+  {
+    "id": 7,
+    "nome": "Fernanda Alves",
+    "especialidade": "Ginecologista",
+    "crm": "77889"
+  }
 ]
