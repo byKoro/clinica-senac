@@ -39,4 +39,44 @@ def del_medic():
   print("Deletado com sucesso!")
 
 def edit_medic():
-  medicos = json_manager.carregar_json("data/medicos.json")
+    list_medic()
+    medicos = json_manager.carregar_json("data/medicos.json")
+
+    op = int(input("Escolha pelo ID quem quer editar: "))
+
+    med_index = None
+    for i, m in enumerate(medicos):
+        if m["id"] == op:
+            med_index = i
+            break
+
+    if med_index is None:
+        print("ID inválido!")
+        return
+
+    while True:
+        print("1 - Nome")
+        print("2 - Especialidade")
+        print("3 - CRM")
+        print("0 - Voltar")
+
+        escolha = input("Escolha uma opção: ")
+
+        if escolha == "1":
+            medicos[med_index]["nome"] = input("Nome: ")
+
+        elif escolha == "2":
+            medicos[med_index]["especialidade"] = input("Especialidade: ")
+
+        elif escolha == "3":
+            medicos[med_index]["crm"] = input("CRM: ")
+
+        elif escolha == "0":
+            break
+
+        else:
+            print("Opção inválida!")
+
+    json_manager.salvar_json("data/medicos.json", medicos)
+    print("Editado com sucesso!")
+    
