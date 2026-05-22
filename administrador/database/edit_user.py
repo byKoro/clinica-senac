@@ -1,5 +1,5 @@
 from administrador.database import json_manager as json_manager
-from administrador.database import auth_service as auth_service
+from administrador.database import auth_user as auth_user
 from administrador.services import list_user as list_user
 
 
@@ -9,7 +9,7 @@ def editar_user():
     print("0 - Voltar")
     id_user = input("Escolha um usuario pelo ID: ")
     if id_user == "0": break # Voltar
-    while not auth_service.check_user(int(id_user)):
+    while not auth_user.check_user(int(id_user)):
       print("Usuário não encontrado")
       id_user = input("Escolha um usuario pelo ID: ")
     
@@ -64,7 +64,7 @@ def del_user():
     print("0 - Voltar")
     op = input("Escolha um usuário pelo id: ")
     if op == "0": break
-    while not auth_service.check_user(int(op)):
+    while not auth_user.check_user(int(op)):
       print("Usuário inválido")
       op = input("Escolha um usuário pelo id: ")
 

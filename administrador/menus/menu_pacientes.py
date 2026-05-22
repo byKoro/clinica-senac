@@ -5,7 +5,7 @@ def menu_paciente():
   while True:
     print("""================================
       GERENCIAR PACIENTES
-    ================================""")
+================================""")
     print("1 - Listar pacientes")
     print("2 - Buscar pacientes")
     print("0 - Voltar")
