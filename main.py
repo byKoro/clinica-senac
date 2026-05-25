@@ -1,8 +1,7 @@
 import administrador.database.auth_user as auth_user
 import administrador.menus.menu_login as menu
-import administrador.database.json_manager as json_manager
 import administrador.menus.menu_admin as menu_admin
-# import Recepcionista.Funções_recepcionista as Recepcionista
+import Recepcionista.Menus.menu_pacientes as menu_pacientes
 
 usuario = {}
 
@@ -29,4 +28,4 @@ while True:
     menu_admin.menu_admin()
 
   elif usuario["nivel"] == "Recepcionista":
-    print("Recepcionista")
+    menu_pacientes.menu_pacientes()

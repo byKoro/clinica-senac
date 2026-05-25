@@ -1,4 +1,7 @@
 from administrador.database import json_manager
+from Recepcionista.Menus import menu_pacientes
+from Recepcionista.Menus import menu_consultas
+
 def get_quantidade(chave, valor, caminho):
     item = json_manager.carregar_json(caminho)
     count = 0
@@ -35,5 +38,13 @@ def menu_recepcionista():
 
 
         if op == "1":
-            continue
+            menu_pacientes.menu_pacientes()
+        elif op == "2":
+            menu_consultas.menu_consultas()
+        elif op == "3":
+            print("Relatório em construção...")
+        elif op == "0":
+            break
+        else: 
+            print("Opção inválida, tente novamente.")
         

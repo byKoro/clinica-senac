@@ -8,13 +8,13 @@
     {
         "usuario": "dasdas",
         "senha": "d123",
-        "nivel": "admin",
+        "nivel": "Administrador",
         "id": 3
     },
     {
-        "usuario": "3123",
-        "senha": "354345",
-        "nivel": "recepcionista",
+        "usuario": "yuri",
+        "senha": "12345",
+        "nivel": "Recepcionista",
         "id": 4
     },
     {
