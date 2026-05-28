@@ -44,3 +44,7 @@ def registrar_consultas():
         print("0. Sair")
         print("1. Continuar")
         op = input("Deseja registar outra consulta: ")
+        while op not in ["0","1"]:
+            print("Valor inválido")
+            op = input("Deseja registar outra consulta: ")
+        if op == 1: break

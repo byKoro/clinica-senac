@@ -4,7 +4,7 @@ def menu_consultas():
     while True:
         print("""================================
         MENU CONSULTAS
-    ================================""")
+================================""")
         print("1 - Listar consultas")
         print("0 - Voltar")
 

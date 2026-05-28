@@ -1,11 +1,10 @@
-from administrador.database import auth_service as auth_service
 from administrador.database import auth_medic 
 
 def menu_medicos():
   while True:
     print("""================================
       GERENCIAR MÉDICOS
-    ================================""")
+================================""")
     print("1 - Cadastrar")
     print("2 - Editar médicos")
     print("3 - Excluir médicos")
